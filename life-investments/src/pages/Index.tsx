@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "../components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { TrendingUp, Calculator, CreditCard, PiggyBank, Shield, BarChart3 } from "lucide-react";
 import { Link } from "react-router-dom";
-import Navigation from "@/components/Navigation";
-import heroImage from "@/assets/hero-finance.jpg";
+import Navigation from "../components/Navigation";
+import heroImage from "../assets/hero-finance.jpg";
 
 const Index = () => {
   const features = [

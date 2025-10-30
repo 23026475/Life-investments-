@@ -4,11 +4,11 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { useCurrency, currencies } from "@/contexts/CurrencyContext";
+} from "../components/ui/dialog";
+import { Button } from "../components/ui/button";
+import { useCurrency, currencies } from "../context/CurrencyContext";
 import { Globe } from "lucide-react";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { ScrollArea } from "../components/ui/scroll-area";
 
 const WelcomeDialog = () => {
   const { showWelcome, setShowWelcome, setCurrency, currency } = useCurrency();

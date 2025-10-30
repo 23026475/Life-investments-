@@ -1,6 +1,6 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { TrendingUp, Shield, Clock, PiggyBank, Building2, Wallet } from "lucide-react";
-import Navigation from "@/components/Navigation";
+import Navigation from "../components/Navigation";
 
 const Investments = () => {
   const investmentTypes = [

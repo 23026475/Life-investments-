@@ -1,6 +1,6 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { CreditCard, Home, Car, GraduationCap, TrendingUp, AlertCircle } from "lucide-react";
-import Navigation from "@/components/Navigation";
+import Navigation from "../components/Navigation";
 
 const CreditLoans = () => {
   const loanTypes = [

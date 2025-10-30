@@ -1,12 +1,12 @@
-import Navigation from "@/components/Navigation";
-import InvestmentCalculator from "@/components/calculators/InvestmentCalculator";
-import CompoundInterestCalculator from "@/components/calculators/CompoundInterestCalculator";
-import LoanCalculator from "@/components/calculators/LoanCalculator";
-import RetirementCalculator from "@/components/calculators/RetirementCalculator";
-import CurrencyConverter from "@/components/calculators/CurrencyConverter";
-import TaxCalculator from "@/components/calculators/TaxCalculator";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Navigation from "../components/Navigation";
+import InvestmentCalculator from "../components/calculators/InvestmentCalculator";
+import CompoundInterestCalculator from "../components/calculators/CompoundInterestCalculator";
+import LoanCalculator from "../components/calculators/LoanCalculator";
+import RetirementCalculator from "../components/calculators/RetirementCalculator";
+import CurrencyConverter from "../components/calculators/CurrencyConverter";
+import TaxCalculator from "../components/calculators/TaxCalculator";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
 
 const Calculators = () => {
   return (

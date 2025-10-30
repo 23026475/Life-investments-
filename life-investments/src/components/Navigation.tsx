@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { TrendingUp, Menu, X } from "lucide-react";
 import { useState } from "react";
-import CurrencySelector from "@/components/CurrencySelector";
+import CurrencySelector from "../components/CurrencySelector";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);

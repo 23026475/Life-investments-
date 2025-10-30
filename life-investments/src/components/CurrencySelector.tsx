@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -6,8 +6,8 @@ import {
   DropdownMenuTrigger,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-} from "@/components/ui/dropdown-menu";
-import { useCurrency, currencies } from "@/contexts/CurrencyContext";
+} from "../components/ui/dropdown-menu";
+import { useCurrency, currencies } from "../context/CurrencyContext";
 import { Globe } from "lucide-react";
 
 const CurrencySelector = () => {

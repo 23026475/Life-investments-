@@ -1,8 +1,8 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
+import { Badge } from "../components/ui/badge";
 import { Building2, Shield, TrendingUp, CreditCard, PiggyBank, Wallet, ExternalLink } from "lucide-react";
-import Navigation from "@/components/Navigation";
-import { Button } from "@/components/ui/button";
+import Navigation from "../components/Navigation";
+import { Button } from "../components/ui/button";
 
 const GetStarted = () => {
   const banks = [
