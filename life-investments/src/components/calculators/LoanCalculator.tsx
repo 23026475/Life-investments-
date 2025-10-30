@@ -1,9 +1,9 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
+import { Input } from "../ui/input (1)";
+import { Label } from "../ui/label";
 import { useState } from "react";
 import { Calculator } from "lucide-react";
-import { useCurrency } from "@/contexts/CurrencyContext";
+import { useCurrency } from "../../context/CurrencyContext";
 
 const LoanCalculator = () => {
   const { formatCurrency } = useCurrency();

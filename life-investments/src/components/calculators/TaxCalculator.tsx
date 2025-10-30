@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Button } from "@/components/ui/button";
-import { useCurrency } from "@/contexts/CurrencyContext";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "../ui/card";
+import { Label } from "../ui/label";
+import { Input } from "../ui/input (1)";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
+import { Button } from "../ui/button";
+import { useCurrency } from "../../context/CurrencyContext";
 
 interface TaxBracket {
   min: number;
